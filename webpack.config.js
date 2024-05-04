@@ -3,11 +3,11 @@ const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const entryPath = "eCommerce";
+const entryPath = "src";
 
 module.exports = {
     mode: "development",
-    entry: `./${entryPath}/js/app.js`,
+    entry: `./${entryPath}/js/index.js`,
     devtool: "inline-source-map",
     output: {
         filename: "out.js",
