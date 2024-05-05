@@ -1,0 +1,21 @@
+{
+  "clients": [
+    {"id": "1", "title": "Zapier", "url": "https://zapier.com/", "image": "./assets/zapier-logo.svg" },
+    {"id": "2", "title": "Pipedrive", "url": "https://www.pipedrive.com/", "image": "./assets/pipedrive-logo.svg" },
+    {"id": "3", "title": "CIB Bank", "url": "https://www.https://www.cib.hu/en/.com/", "image": "./assets/cibbank-logo.svg" },
+    {"id": "4", "title": "Seven.", "url": "https://7company.com/", "image": "./assets/seven-logo.svg" },
+    {"id": "5", "title": "Burnt Toast", "url": "https://burnttoast.social/", "image": "./assets/burnttoast-logo.svg" },
+    {"id": "6", "title": "PandaDoc", "url": "https://www.pandadoc.com/", "image": "./assets/pandadoc-logo.svg" },
+    {"id": "6", "title": "MOZ", "url": "https://moz.com/", "image": "./assets/moz-logo.svg" }
+  ],
+  "chairs": [
+    {"id": "1", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-1.png", "price": "$20", "badge": "new" },
+    {"id": "2", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-2.png", "price": "$20", "badge": "sales" },
+    {"id": "3", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-3.png", "price": "$20", "badge": false },
+    {"id": "4", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-4.png", "price": "$20", "badge": false },
+    {"id": "5", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-5.png", "price": "$20", "badge": "new" },
+    {"id": "6", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-6.png", "price": "$20", "badge": "sales" },
+    {"id": "7", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-7.png", "price": "$20", "badge": false },
+    {"id": "8", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-8.png", "price": "$20", "badge": false }
+  ]
+}
