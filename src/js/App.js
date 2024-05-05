@@ -7,6 +7,7 @@ import Product from "./Components/Product";
 import ProductsList from "./Components/ProductsList";
 
 import database from "../database.json"
+import Category from "./Components/Category";
 
 const App = () => {
     return(
@@ -49,6 +50,25 @@ const App = () => {
              </div>
          </div>
          <Heading title="Top Categories"/>
+         <div className="categories">
+             <div className="categories-container">
+                 <Category
+                     category="Wing Chair"
+                     products="3,584 Products"
+                     image={database.chairs[4].image}
+                 />
+                 <Category
+                     category="Wooden Chair"
+                     products="157 Products"
+                     image={database.chairs[5].image}
+                 />
+                 <Category
+                     category="Desk Chair"
+                     products="154 Products"
+                     image={database.chairs[6].image}
+                 />
+             </div>
+         </div>
 
         </>
     )
