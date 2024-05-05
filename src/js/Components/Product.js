@@ -3,7 +3,6 @@ import React from "react";
 const Product = (props) => {
     return (<>
         <div className="chair">
-
             <div className="chair-container">
                 <a href={props.url} target="_blank">
                     <img src={props.image} alt={props.alt}/>
@@ -31,17 +30,3 @@ const Product = (props) => {
 }
 
 export default Product;
-
-/*
-function MyComponent() {
-  return (
-    <div>
-      <h1>Name: {jsonData.name}</h1>
-      <p>Age: {jsonData.age}</p>
-      <p>Email: {jsonData.email}</p>
-    </div>
-  );
-}
-
-export default MyComponent;
- */

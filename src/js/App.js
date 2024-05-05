@@ -33,6 +33,7 @@ const App = () => {
                      url={database.chairs[1].url}
                      badge={"sales"}
                      badgeName={"Sales"}
+                     oldprice={"$30"}
                  />
                  <Product
                      image={database.chairs[2].image} alt={database.chairs[2].description} key={database.chairs[2].id}
@@ -69,6 +70,9 @@ const App = () => {
                  />
              </div>
          </div>
+         <Heading title="Our Products"/>
+         <ProductsList/>
+
 
         </>
     )

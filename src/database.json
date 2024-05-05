@@ -16,6 +16,7 @@
     {"id": "5", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-5.png", "price": "$20", "badge": "new" },
     {"id": "6", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-6.png", "price": "$20", "badge": "sales" },
     {"id": "7", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-7.png", "price": "$20", "badge": false },
-    {"id": "8", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-8.png", "price": "$20", "badge": false }
+    {"id": "8", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-8.png", "price": "$20", "badge": false },
+    {"id": "8", "description": "Library Stool Chair", "url": "https://comforty.com/featured/library-stool-chair/", "image": "./assets/stool-9.png", "price": "$20", "badge": false }
   ]
 }
