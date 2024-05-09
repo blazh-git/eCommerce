@@ -3,7 +3,7 @@ import React from "react";
 const Product = (props) => {
     return (
         <div className="chair">
-            <div className="chair-container">
+            <div className="chair-cont">
                 <a href={props.url} target="_blank">
                     <img src={props.image} alt={props.alt}/>
                     <div className="favorites">

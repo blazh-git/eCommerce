@@ -17,11 +17,11 @@ h3 {
   color: #fff;
 }
 
-.h2-container {
-  width: 100vw;
+.h2-cont {
+  width: 100%;
   margin-top: 75px;
   margin-bottom: 50px;
-  .container {
+  .cont {
     margin: 0 auto;
   }
 }
@@ -68,6 +68,7 @@ h3 {
     margin-bottom: 10px;
     &:hover {
       text-decoration: underline;
+      color: $accent;
     }
   }
 }

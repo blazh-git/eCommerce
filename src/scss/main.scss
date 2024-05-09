@@ -2,10 +2,10 @@
 @import "fonts";
 
 header {
-  width: 100vw;
+  width: 100%;
   .top-banner {
     background-color: $main;
-    .container {
+    .cont {
       height: 45px;
       margin: 0 auto;
       display: flex;
@@ -35,7 +35,7 @@ header {
   }
   .main-bar {
     background-color: $secondary;
-    .container {
+    .cont {
       margin: 0 auto;
       height: 85px;
       display: flex;
@@ -95,7 +95,7 @@ header {
   .nav-bar {
     background-color: #fff;
     box-shadow: 0 1px #E1E3E5;
-    .container {
+    .cont {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -133,7 +133,7 @@ header {
 }
 
 .banner {
-  width: 100vw;
+  width: 100%;
   .banner-content {
     margin: 0 auto;
     width: 90vw;
@@ -156,7 +156,7 @@ header {
       left: 50%;
       transform: translateY(-30%);
     }
-    .container {
+    .cont {
       margin: 0 auto;
       display: flex;
       z-index: 2;
@@ -210,7 +210,7 @@ header {
 }
 
 .clients {
-  width: 100vw;
+  width: 100%;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -226,14 +226,15 @@ header {
 }
 
 .featured-products {
-  width: 100vw;
-  .featured-container {
+  width: 100%;
+  .featured-cont {
     width: $max-width;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }
 }
+
 .chair {
   position: relative;
   width: 312px;
@@ -252,7 +253,7 @@ header {
     cursor: pointer;
   }
 
-  .chair-container {
+  .chair-cont {
     margin: 0 auto;
     a:hover .favorites {
       visibility: visible;
@@ -320,11 +321,11 @@ header {
 }
 
 .categories {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  .categories-container {
+  .categories-cont {
     width: $max-width;
     margin: 0 auto;
     display: flex;
@@ -356,8 +357,8 @@ header {
 }
 
 .our-products {
-  width: 100vw;
-  .products-container {
+  width: 100%;
+  .products-cont {
     width: $max-width;
     margin: 0 auto;
     display: flex;
@@ -368,12 +369,12 @@ header {
 }
 
 .footer {
-  width: 100vw;
-  margin: 70px 0;
+  width: 100%;
+  margin-top: 70px;
   padding: 70px 0;
   border-top: 1px solid $secondary;
   border-bottom: 1px solid $secondary;
-  .footer-container {
+  .footer-cont {
     width: $max-width;
     margin: 0 auto;
     display: flex;
@@ -408,9 +409,9 @@ header {
           margin-bottom: 10px;
           .newsletter-input {
             width: 60%;
-            padding: 16px;
+            padding: 12px;
             border: 1px solid $secondary;
-            border-radius: 5px;
+            border-radius: 8px;
             &::placeholder {
               color: #9A9CAA;
               font-size: 14px;
@@ -425,13 +426,45 @@ header {
             width: 30%;
             border: none;
             background-color: $accent;
-            border-radius: 5px;
+            border-radius: 8px;
             color: #fff;
             font-size: 14px;
             font-weight: 400;
             cursor: pointer;
           }
         }
+      }
+    }
+  }
+}
+
+.copyright {
+  padding: 20px 0;
+  .copyright-cont {
+    width: $max-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .dev-link {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: inherit;
+      }
+    }
+    .developer {
+      font-size: 14px;
+      font-weight: 600;
+      color: $main;
+    }
+    .copyright-logos {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      div a {
+        display: flex;
+        align-items: center;
       }
     }
   }

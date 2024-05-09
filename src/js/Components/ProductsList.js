@@ -5,7 +5,7 @@ import Product from "./Product";
 const ProductsList = () => {
     return (
         <div className="our-products">
-            <div className="products-container">
+            <div className="products-cont">
                 <Product
                     image={database.chairs[0].image} alt={database.chairs[0].description} key={database.chairs[0].id}
                     description={database.chairs[0].description}

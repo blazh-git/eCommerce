@@ -8,7 +8,7 @@ const Clients = () => {
     ))
     return(
         <div className="clients">
-            <div className="clients-images container">
+            <div className="clients-images cont">
                 {clients}
             </div>
         </div>

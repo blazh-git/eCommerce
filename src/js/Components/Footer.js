@@ -4,7 +4,7 @@ import SocialsLogo from "./SocialsLogo";
 const Footer = () => {
     return(
         <div className="footer">
-            <div className="footer-container">
+            <div className="footer-cont">
                 <div className="col-1">
                     <div className="logo">
                         <img src="../../assets/main_logo-icon.svg" alt="Comforty logo"/>

@@ -4,7 +4,7 @@ const Banner = () => {
     return(
         <section className="banner">
             <div className="banner-content">
-                <div className="container">
+                <div className="cont">
                     <div className="left-column">
                         <p className="welcome">Welcome to chairy</p>
                         <h1>Best Furniture Collection for your interior.</h1>
