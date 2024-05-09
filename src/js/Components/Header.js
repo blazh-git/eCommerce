@@ -16,7 +16,7 @@ const Header = () => {
             <div className="main-bar">
                 <div className="container">
                     <div className="logo">
-                        <img src="../../assets/main_logo-icon.svg"/>
+                        <img src="../../assets/main_logo-icon.svg" alt="Comforty logo"/>
                         <p className="logo-name">Comforty</p>
                     </div>
                     <div className="search-bar">

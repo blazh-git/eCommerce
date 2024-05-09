@@ -1,7 +1,7 @@
 import React from "react";
 
 const Product = (props) => {
-    return (<>
+    return (
         <div className="chair">
             <div className="chair-container">
                 <a href={props.url} target="_blank">
@@ -26,7 +26,7 @@ const Product = (props) => {
                 <span>{props.badgeName}</span>
             </div>
         </div>
-    </>)
+    )
 }
 
 export default Product;

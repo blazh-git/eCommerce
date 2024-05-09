@@ -8,6 +8,7 @@ import ProductList from "./Components/ProductsList";
 
 import database from "../database.json"
 import Category from "./Components/Category";
+import Footer from "./Components/Footer";
 
 const App = () => {
     return(
@@ -43,6 +44,7 @@ const App = () => {
          </div>
          <Heading title="Our Products"/>
          <ProductList/>
+         <Footer />
         </>
     )
 }

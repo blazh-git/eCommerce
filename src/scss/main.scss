@@ -367,3 +367,72 @@ header {
   }
 }
 
+.footer {
+  width: 100vw;
+  margin: 70px 0;
+  padding: 70px 0;
+  border-top: 1px solid $secondary;
+  border-bottom: 1px solid $secondary;
+  .footer-container {
+    width: $max-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    .col-1 {
+      width: 300px;
+      .logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        .logo-name {
+          font-size: 25px;
+          font-weight: 500;
+          margin-left: 8px;
+        }
+      }
+      .desc {
+        margin-bottom: 15px;
+      }
+      .socials {
+        display: flex;
+        gap: 30px;
+      }
+    }
+    .col-4 {
+      width: 450px;
+      .footer-newsletter {
+        .subscribe {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 10px;
+          .newsletter-input {
+            width: 60%;
+            padding: 16px;
+            border: 1px solid $secondary;
+            border-radius: 5px;
+            &::placeholder {
+              color: #9A9CAA;
+              font-size: 14px;
+              font-weight: 300;
+            }
+            &:focus {
+              outline: none !important;
+              color: $main;
+            }
+          }
+          .sub-btn {
+            width: 30%;
+            border: none;
+            background-color: $accent;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
