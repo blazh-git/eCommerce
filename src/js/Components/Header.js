@@ -4,7 +4,7 @@ const Header = () => {
     return(
         <header>
             <div className="top-banner">
-                <div className="container">
+                <div className="cont">
                     <p>Free shipping on all orders over $50</p>
                     <ul>
                         <li><a href="#">Contact</a></li>
@@ -14,9 +14,9 @@ const Header = () => {
                 </div>
             </div>
             <div className="main-bar">
-                <div className="container">
+                <div className="cont">
                     <div className="logo">
-                        <img src="../../assets/main_logo-icon.svg"/>
+                        <img src="../../assets/main_logo-icon.svg" alt="Comforty logo"/>
                         <p className="logo-name">Comforty</p>
                     </div>
                     <div className="search-bar">
@@ -37,9 +37,9 @@ const Header = () => {
                 </div>
             </div>
             <div className="nav-bar">
-                <div className="container">
+                <div className="cont">
                     <ul className="nav-list">
-                        <li className="nav-item categories">Categories</li>
+                        <li className="nav-item categ">Categories</li>
                         <li className="nav-item active"><a>Home</a></li>
                         <li className="nav-item"><a>Shop</a></li>
                         <li className="nav-item"><a>Product</a></li>
